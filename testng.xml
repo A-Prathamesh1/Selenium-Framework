@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="InetBankingV1">
+	<listeners>
+		<listerner class-name="com.inetbanking.utilities.Reporting" />
+	</listeners>
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.inetbanking.testCases.BaseClass">
+				<methods>
+					<include name="loginTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

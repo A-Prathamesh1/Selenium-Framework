@@ -1,0 +1,13 @@
+{
+  "theme": "DARK",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "Title of Reports",
+  "reportName": "Login Test Report",
+  "timeStampFormat": "dd-mm-yyyy, HH:mm:ss a",
+  "js": "document.querySelector(\"body > div > div > div.header.navbar > div > div > a > div\").style.display = 'none';",
+  "css": ".badge-primary{background-color:#1567df}"
+}
